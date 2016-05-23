@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jarvis.Api", "Jarvis.Api\Jarvis.Api.csproj", "{B6882A9D-03B2-40EC-A6E9-6854B7B33A37}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jarvis.Presentation", "Jarvis.Presentation\Jarvis.Presentation.csproj", "{5E9A4174-4018-4786-B147-6A544B6D1452}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jarvis.Domain", "Jarvis.Domain\Jarvis.Domain.csproj", "{D1B5226A-A76C-451A-85E6-74905712F74C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jarvis.Infrastructure", "Jarvis.Infrastructure\Jarvis.Infrastructure.csproj", "{2855F7B4-6612-403B-9198-02255A90FBA3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{837F0ADF-897B-49B0-AF38-EEE3AD216C9A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jarvis.UnitTests", "Jarvis.UnitTests\Jarvis.UnitTests.csproj", "{5469EF84-241F-42F3-8D2D-719FE6E94F75}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B6882A9D-03B2-40EC-A6E9-6854B7B33A37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6882A9D-03B2-40EC-A6E9-6854B7B33A37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6882A9D-03B2-40EC-A6E9-6854B7B33A37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6882A9D-03B2-40EC-A6E9-6854B7B33A37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E9A4174-4018-4786-B147-6A544B6D1452}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E9A4174-4018-4786-B147-6A544B6D1452}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E9A4174-4018-4786-B147-6A544B6D1452}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E9A4174-4018-4786-B147-6A544B6D1452}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1B5226A-A76C-451A-85E6-74905712F74C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1B5226A-A76C-451A-85E6-74905712F74C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1B5226A-A76C-451A-85E6-74905712F74C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1B5226A-A76C-451A-85E6-74905712F74C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2855F7B4-6612-403B-9198-02255A90FBA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2855F7B4-6612-403B-9198-02255A90FBA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2855F7B4-6612-403B-9198-02255A90FBA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2855F7B4-6612-403B-9198-02255A90FBA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5469EF84-241F-42F3-8D2D-719FE6E94F75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5469EF84-241F-42F3-8D2D-719FE6E94F75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5469EF84-241F-42F3-8D2D-719FE6E94F75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5469EF84-241F-42F3-8D2D-719FE6E94F75}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5469EF84-241F-42F3-8D2D-719FE6E94F75} = {837F0ADF-897B-49B0-AF38-EEE3AD216C9A}
+	EndGlobalSection
+EndGlobal
